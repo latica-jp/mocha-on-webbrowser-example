@@ -2,7 +2,7 @@
 module.exports = {
   entry: ['./setup.js', './run.js'],
   output: {
-    filename: 'bundle.js',
+    filename: './dist/bundle.js',
   },
   resolve: {
     alias: {
