@@ -1,3 +1,3 @@
-import 'https://unpkg.com/chai@4.1.2/chai.js';
+import ConsoleReporter from 'mocha-browser-console-reporter'
 
-mocha.setup('bdd');
+mocha.setup({ui: 'bdd', reporter: ConsoleReporter});
